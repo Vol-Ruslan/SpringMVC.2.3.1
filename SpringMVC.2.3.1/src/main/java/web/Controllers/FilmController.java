@@ -63,28 +63,4 @@ public class FilmController {
         userService.delete(userService.getById(id));
         return "redirect:/";
     }
-
-
-//    @GetMapping()
-//    public ModelAndView allFilms() {
-//        ModelAndView modelAndView = new ModelAndView();
-//        modelAndView.setViewName("films");
-//        modelAndView.addObject("film", film);
-//        return modelAndView;
-//    }
-
-//    @RequestMapping(value = "/", method = RequestMethod.GET)
-//    public ModelAndView allFilms() {
-//        ModelAndView modelAndView = new ModelAndView();
-//        modelAndView.setViewName("films");
-//        return modelAndView;
-//    }
-//
-//    @RequestMapping(value = "/edit", method = RequestMethod.GET)
-//    public ModelAndView editPage() {
-//        ModelAndView modelAndView = new ModelAndView();
-//        modelAndView.setViewName("editPage");
-//        return modelAndView;
-//    }
-
 }

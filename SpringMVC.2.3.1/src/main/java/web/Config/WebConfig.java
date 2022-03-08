@@ -50,13 +50,4 @@ public class WebConfig implements WebMvcConfigurer {
         resolver.setTemplateEngine(templateEngine());
         registry.viewResolver(resolver);
     }
-
-
-//    @Bean
-//    ViewResolver viewResolver() {
-//        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-//        viewResolver.setPrefix("/pages/");
-//        viewResolver.setSuffix(".html");
-//        return viewResolver;
-//    }
 }
